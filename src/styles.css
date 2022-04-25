@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+nav a {
+  padding: 15px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: rgb(199, 238, 28);
+  border-radius: 4px;
+  margin-left: 20px;
+}
+nav a:visited a:link {
+  color: aqua;
+}
+nav a:hover {
+  color: azure;
+  background-color: rgb(197, 88, 192);
+}
+nav a:active {
+  background-color: greenyellow;
+}
+
+.items {
+  padding: 15px 20px;
+  border: 1px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: rgb(199, 238, 28);
+  border-radius: 4px;
+  margin-left: 20px;
+  margin: 10px;
+  font-size: larger;
+  box-sizing: border-box;
+}
+.items:hover {
+  color: azure;
+  background-color: rgb(211, 129, 207);
+}
+.mouse {
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  color: rgb(183, 0, 255);
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,26 @@
+p {
+  text-align: center;
+  font-size: xx-large;
+  color: blueviolet;
+  font-style: oblique;
+}
+nav a {
+  padding: 15px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: rgb(199, 238, 28);
+  border-radius: 4px;
+  margin-left: 20px;
+}
+nav a:visited a:link {
+  color: aqua;
+}
+nav a:hover {
+  color: azure;
+  background-color: rgb(197, 88, 192);
+}
+nav a:active {
+  color: red;
+  background-color: greenyellow;
+}
